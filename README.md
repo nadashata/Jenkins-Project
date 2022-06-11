@@ -8,6 +8,7 @@ You must use the following:
   Git: As a version control system for the software  
   Jenkins: To create the build pipeline  
   Spring boot: To create the Maven app  
-  Maven: To compile the program  AWS EC2: To run the master and slave nodes  
+  Maven: To compile the program  
+  AWS EC2: To run the master and slave nodes  
   
 The following requirements should be met:  The app should be built with Maven.  There should be three EC2 instances to run the master and two slave nodes.  All builds should be triggered and monitored by the master node.  Compilation and testing should be done on dedicated slave nodes.
